@@ -1,0 +1,21 @@
+pip install social-auth-app-django
+python -m pip install django-cors-headers
+mkdir desinventar/moha
+python manage.py startapp moha desinventar/moha
+
+
+backend
+———— backend
+———— app
+———— desinventar
+———————— moha
+    ———— manage.py
+
+Edit name in file: C:\Dev\desinventar\backend\desinventar\moha\apps.py
+class SubappConfig(AppConfig):
+    name = "desinventar.moha"
+
+pip install python-magic-bin==0.4.14
+pip install python-magic-bin
+pip install messytable
+https://github.com/edcrewe/django-csvimport
